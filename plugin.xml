@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.ludei.ios.webview.plus" version="1.0.4">
 
-	<name>Webview+</name>
-	<author>Ludei</author>
+    <name>Webview+</name>
+    <description>Webview+ as update on ios</description>
+    <author>Ludei</author>
+    <license>MIT</license>
+    <keywords>phonegap,cordova,ios</keywords>
+    <repo>https://github.com/opula/webview-plus-ios</repo>
+    <issue>https://github.com/opula/webview-plus-ios</issue>
 
 	<engines>
         <engine name="cordova" version=">=2.9" />
