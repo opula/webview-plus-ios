@@ -5,10 +5,12 @@
 	<author>Ludei</author>
 
 	<engines>
-        <engine name="cordova" version="<=4.0.0" />
+        <engine name="cordova" version=">=2.9" />
     </engines>
 
     <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+
     	<framework src="QuartzCore.framework" />
     	<framework src="CoreGraphics.framework" />
     	<framework src="CoreText.framework" />
