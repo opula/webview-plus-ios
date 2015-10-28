@@ -10,6 +10,10 @@
 
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
+        <feature name="WebView+">
+            <param name="ios-package" value="WebView+" />
+        </feature>
+        </config-file>
 
     	<framework src="QuartzCore.framework" />
     	<framework src="CoreGraphics.framework" />
